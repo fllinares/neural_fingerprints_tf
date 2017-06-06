@@ -1,0 +1,15 @@
+{
+    "atom": {
+        "aromaticity": "none",
+        "degree": "none",
+        "implicit_valence": "none",
+        "num_Hs": "none",
+        "symbol": "category"
+    }, 
+    "bond": {
+        "is_conjugated": "none",
+        "is_in_ring": "none",
+        "type": "category"
+    }, 
+    "explicit_Hs": 1
+}

@@ -1,0 +1,15 @@
+{
+    "atom": {
+        "aromaticity": "category", 
+        "degree": "one-hot", 
+        "implicit_valence": "one-hot", 
+        "num_Hs": "one-hot", 
+        "symbol": "one-hot"
+    }, 
+    "bond": {
+        "is_conjugated": "category", 
+        "is_in_ring": "category", 
+        "type": "one-hot"
+    }, 
+    "explicit_Hs": 1
+}
