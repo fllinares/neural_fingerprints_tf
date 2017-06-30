@@ -268,7 +268,7 @@ class NeuralFingerprints(BasicModel):
             self.output['fingerprint_output_layers']['graph_fp'].append(graph_fp)
 
         # Obtain graph fingerprint as the sum of the graph activations across all layers
-            self.output['fingerprint_output_layers']['fingerprint'] = tf.add_n(self.output['fingerprint_output_layers']['graph_fp'])
+        self.output['fingerprint_output_layers']['fingerprint'] = tf.add_n(self.output['fingerprint_output_layers']['graph_fp'])
 
     def fully_connected_mlp_layer(self, input, scope):
         # Path to hyperparameters and configuration settings for the output MLP
